@@ -1,0 +1,40 @@
+var x = prompt('Введите X: ');
+var y = prompt('Введите Y: ');
+var summ;
+
+if (x >= y) {
+    summ = x * 5;
+    alert('Итог: ' + summ);
+} else if (y >= x) {
+    summ = y * 5;
+    alert('Итог: ' + summ);
+};
+
+
+/*				*/
+
+var name = prompt('Что вы хотите найти, max or min?');
+
+if (name == 'max') {
+    var aMax = prompt('Введите max A: ');
+    var bMax = prompt('Введите max B: ');
+
+    if (aMax >= bMax) {
+        alert('Наименьшие A!'); //+ \n + "Сумма ровна: " + summ);
+    } else if (bMax >= aMax) {
+        alert('Наименьшие B!'); //+ \n + "Сумма ровна: " + summ);
+    };
+} else if (name == 'min') {
+    var aMin = prompt('Введите min A: ');
+    var bMin = prompt('Введите min B: ');    
+
+    if (aMin >= bMin) {
+        alert('Наибольшие A!'); //+ \n + "Сумма ровна: " + summ);
+    } else if (bMin >= aMin) {
+        alert('Наибольшие B!'); //+ \n + "Сумма ровна: " + summ);
+    };
+} else {
+    alert('Ошибка!');
+};
+
+/*				*/
